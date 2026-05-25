@@ -1,0 +1,2 @@
+customer_id,y_true,y_pred,proba,recency_days,frequency_180d,monetary_180d,sessions_30d,last_visit_days_ago,ticket_count_90d,neg_ticket_rate_90d,loyalty_tier,acquisition_channel
+CUST00184,1,0,0.005555555555555555,14,3.0,2456.91,6,6,0.0,0.0,Platinum,Instagram
