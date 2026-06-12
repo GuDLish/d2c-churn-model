@@ -1,11 +1,11 @@
-customer_id,y_true,y_pred,proba,recency_days,frequency_180d,monetary_180d,sessions_30d,last_visit_days_ago,ticket_count_90d,neg_ticket_rate_90d,loyalty_tier,acquisition_channel,interpretation
-CUST01246,0,1,0.9082448368378362,262,0.0,0.0,1,60,0.0,0.0,Silver,Influencer,Model says churn but features show stale (262d since order) — likely over-weighted recency/inactivity; safe to DROP from outreach.
-CUST00437,0,1,0.8815781701711695,151,1.0,729.22,0,33,0.0,0.0,Silver,Marketplace,"Model says churn but features show stale (151d since order), no web sessions in 30d — likely over-weighted recency/inactivity; safe to DROP from outreach."
-CUST01039,0,1,0.8706103565365024,129,1.0,544.8,12,26,0.0,0.0,Missing,Marketplace,"Model says churn but features show stale (129d since order), active on site (12 sess/30d) — likely over-weighted recency/inactivity; safe to DROP from outreach."
-CUST01405,0,1,0.8568955232292241,140,1.0,1013.03,2,20,0.0,0.0,Gold,Referral,Model says churn but features show stale (140d since order) — likely over-weighted recency/inactivity; safe to DROP from outreach.
-CUST01803,0,1,0.841820285723981,104,2.0,1100.8600000000001,1,15,0.0,0.0,Silver,Referral,Model says churn but features show thin signal — likely over-weighted recency/inactivity; safe to DROP from outreach.
-CUST02171,0,1,0.841820285723981,120,1.0,1067.07,1,11,0.0,0.0,Missing,Referral,Model says churn but features show stale (120d since order) — likely over-weighted recency/inactivity; safe to DROP from outreach.
-CUST01370,0,1,0.84153348367487,161,2.0,1246.04,2,35,0.0,0.0,Missing,Organic,Model says churn but features show stale (161d since order) — likely over-weighted recency/inactivity; safe to DROP from outreach.
-CUST01325,0,1,0.8355086223676471,186,0.0,0.0,1,43,0.0,0.0,Missing,Google Search,Model says churn but features show stale (186d since order) — likely over-weighted recency/inactivity; safe to DROP from outreach.
-CUST01614,0,1,0.8239596883026424,103,2.0,1352.11,4,4,0.0,0.0,Missing,Google Search,Model says churn but features show thin signal — likely over-weighted recency/inactivity; safe to DROP from outreach.
-CUST02022,0,1,0.8193528138528137,44,1.0,329.75,1,4,1.0,1.0,Missing,Instagram,Model says churn but features show majority-negative support tickets — likely over-weighted recency/inactivity; safe to DROP from outreach.
+customer_id,y_true,y_pred,proba,recency_days,frequency_180d,monetary_180d,sessions_30d,last_visit_days_ago,ticket_count_90d,neg_ticket_rate_90d,loyalty_tier,acquisition_channel
+CUST01246,0,1,0.9082448368378362,262,0.0,0.0,1,60,0.0,0.0,Silver,Influencer
+CUST00437,0,1,0.8815781701711695,151,1.0,729.22,0,33,0.0,0.0,Silver,Marketplace
+CUST01039,0,1,0.8706103565365024,129,1.0,544.8,12,26,0.0,0.0,Missing,Marketplace
+CUST01405,0,1,0.8568955232292241,140,1.0,1013.03,2,20,0.0,0.0,Gold,Referral
+CUST01803,0,1,0.841820285723981,104,2.0,1100.8600000000001,1,15,0.0,0.0,Silver,Referral
+CUST02171,0,1,0.841820285723981,120,1.0,1067.07,1,11,0.0,0.0,Missing,Referral
+CUST01370,0,1,0.84153348367487,161,2.0,1246.04,2,35,0.0,0.0,Missing,Organic
+CUST01325,0,1,0.8355086223676471,186,0.0,0.0,1,43,0.0,0.0,Missing,Google Search
+CUST01614,0,1,0.8239596883026424,103,2.0,1352.11,4,4,0.0,0.0,Missing,Google Search
+CUST02022,0,1,0.8193528138528137,44,1.0,329.75,1,4,1.0,1.0,Missing,Instagram
